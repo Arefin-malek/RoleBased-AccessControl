@@ -13,14 +13,13 @@ function LandingPage(props) {
         <div className="bgimg w3-display-container w3-animate-opacity w3-text-white" style={{ height: '100vh' }}>
             <TopNav routes={navOptions} />
             
-            {/* Image at the top-left corner (no margin or padding) */}
             <img
                 src={logo}
                 alt="VRV Security Logo"
                 style={{
                     position: 'absolute',
-                    top: '0',   // No margin, touch top
-                    left: '0',  // No margin, touch left
+                    top: '0',   
+                    left: '0', 
                     width: '50px',
                     height: '50px'
                 }}
@@ -86,7 +85,7 @@ function LandingPage(props) {
                 </div>
             </div>
             <div className="w3-display-bottomleft w3-padding-large">
-                Developed by <a href="https://github.com/Arefin-malek" target="_blank" style={{ color: '#fff', textDecoration: 'underline' }}>Arefin Malek</a>
+                Developed by <a href="https://github.com/Arefin-malek" target="_blank" rel="noopener noreferrer" style={{ color: '#fff', textDecoration: 'underline' }}>Arefin Malek</a>
             </div>
         </div>
     );
